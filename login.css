@@ -3,41 +3,43 @@
 	padding: 0px;
 }
 .sub{
-	height: 100px;;
+	height: auto;
 	width: 100%;
 	text-align: center;
-	font-size:24px;
+	font-size:2vw;
 	color: #800000;
 	font-family:Raleway, sans-serif;
-	font-weight: 800px;
-	padding-top: 30px;
+	font-weight: 800;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .login{
-  height: 150px;
-  width: 30%;
-  margin: 0px 100px 0px 420px;
-  font-size: 16px;
-  font-family:Raleway, sans-serif;
-  padding: 40px 40px 0px 60px;
-  background-color:#f4efef;
+	height: auto;
+	width: 30%;
+	margin: 0% 5% 0% 31%;
+	font-size: 1.25vw;
+	font-family:Raleway, sans-serif;
+	padding: 2.5% 2.5% 2.5% 5%;
+	background-color:#f4efef;
 }
 .login input{
-	padding: 5px 200px 5px 2px;
-	margin: 5px 0px 5px 0px;
+	padding: 1.5% 47% 1.5% 0.8%;
+	margin: 1% 0% 1% 0%;
 	border:0px;
 
 }
 .button{
-	height: 120px;
+	height: auto;
 	width: 55%;
-	margin: 0px 100px 0px 300px;
+	margin: 0% 15% 0% 22%;
 }
 .button input{
-	font-size: 18px;
+	font-size: 1.5vw;
 	background-color: #800000;
 	color: white;
 	font-family:Raleway, sans-serif;
-	padding: 5px 35px 5px 35px;
-	margin-left: 320px;
+	padding: 0.5% 2.5% 0.5% 2.5%;
+	margin-top: 1%;
+	margin-left: 44%;
 	border:0px;
 }
