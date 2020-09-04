@@ -5,25 +5,30 @@
 .nav{
 	height:60px;
 	width:100%;
-	background-color:rgba(255,255,255,0.1);
+	background-color:rgba(255,255,255,0.0);
 	position:fixed;
-	color: maroon;
+	color: #800000;
 	font-size: 24px;
-	font-weight: bold;
-	font-family:Verdana, Geneva, sans-serif;
-	z-index: 100;
+	font-family:Raleway, sans-serif;
 }
 .nav li{
 	list-style-type: none;
 	float: right;
 	padding: 5px 10px 5px 10px;
 	line-height: 2;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin:5px 10px 10px 0px;
 }
 .nav li:hover{
 	cursor: default;
-	box-shadow: 2px 2px 2px black;
+	background-color: #800000;
+	margin-top: 5px;
+}
+.nav a:hover{
+	color: #ffffff;
+}
+.nav a{
+	text-decoration: none;
+	color: #800000;
 }
 #main{
   height: 662px;
@@ -31,32 +36,30 @@
 }
 .img{
   height: 662px;
-  width: 50%;
+  width: 48%;
   float: left;
 }
-.title{
-  height: 662px;
-  width: 50%;
-  float: right;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  font-family:Verdana, Geneva, sans-serif;
-  color: maroon;
-
-}
-.title h1{
-  padding: 160px 0px 0px 5px;
-}
-.title h2{
-  padding: 0px 0px 80px 5px;
-  font-size: 20px;
-  font-weight: normal;
-}
-
 .img img{
   height: 600px;
   width: 90%;
-  margin: 20px 5px 20px 20px;
+  margin: 35px 0px 20px 50px;
   border-radius: 100%;
+}
+.title{
+  height: 662px;
+  width: 52%;
+  float: right;
+  text-align: center;
+  font-size: 48px;
+  font-family:Raleway, sans-serif;
+  color: #800000;
+
+}
+.title h1{
+  padding: 200px 0px 0px 5px;
+}
+.title h2{
+  padding: 0px 50px 80px 25px;
+  font-size: 40px;
+  font-weight: normal;
 }

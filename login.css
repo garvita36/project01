@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.sub{
+	height: 100px;;
+	width: 100%;
+	text-align: center;
+	font-size:24px;
+	color: #800000;
+	font-family:Raleway, sans-serif;
+	font-weight: 800px;
+	padding-top: 30px;
+}
+.login{
+  height: 150px;
+  width: 30%;
+  margin: 0px 100px 0px 420px;
+  font-size: 16px;
+  font-family:Raleway, sans-serif;
+  padding: 40px 40px 0px 60px;
+  background-color:#f4efef;
+}
+.login input{
+	padding: 5px 200px 5px 2px;
+	margin: 5px 0px 5px 0px;
+	border:0px;
+
+}
+.button{
+	height: 120px;
+	width: 55%;
+	margin: 0px 100px 0px 300px;
+}
+.button input{
+	font-size: 18px;
+	background-color: #800000;
+	color: white;
+	font-family:Raleway, sans-serif;
+	padding: 5px 35px 5px 35px;
+	margin-left: 320px;
+	border:0px;
+}

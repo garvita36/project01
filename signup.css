@@ -3,29 +3,61 @@
 	padding: 0px;
 }
 .sub{
-	height: 120px;
+	height: 100px;;
 	width: 100%;
 	text-align: center;
-	color: maroon;
+	font-size:24px;
+	color: #800000;
+	font-family:Raleway, sans-serif;
+	font-weight: 800px;
+	padding-top: 30px;
 }
 .signup{
 	height: 300px;
 	width: 30%;
 	margin: 0px 100px 0px 420px;
-	font-size: 24px;
-	font-family:Verdana, Geneva, sans-serif;
-	padding: 30px 50px 30px 60px;
+	font-size: 16px;
+	font-family:Raleway, sans-serif;
+	padding: 40px 40px 0px 60px;
+	background-color:#f4efef;
 }
 .signup input{
-	padding: 5px 100px 5px 100px;
+	padding: 5px 200px 5px 2px;
+	margin: 5px 0px 5px 0px;
+	border:0px;
+
 }
 .signup p{
-	font-size: 20px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family:Raleway, sans-serif;
+}
+.signup a{
+	text-decoration: none;
+	color:#38b6ff;
 }
 .button{
 	height: 120px;
 	width: 55%;
-	margin: 0px 100px 0px 250px;
-	font-size: 22px;
-	font-family:Verdana, Geneva, sans-serif;
+	margin: 0px 100px 0px 300px;
+}
+.button input{
+	font-size: 18px;
+	background-color: #800000;
+	color: white;
+	font-family:Raleway, sans-serif;
+	padding: 5px 30px 5px 30px;
+	margin-top: 20px;
+	margin-left: 310px;
+	border:0px;
+}
+.button p{
+	font-size: 18px;
+	font-family:Raleway, sans-serif;
+	padding-top: 10px;
+  text-align: center;
+}
+.button a{
+	text-decoration: none;
+	color:#38b6ff;
 }
